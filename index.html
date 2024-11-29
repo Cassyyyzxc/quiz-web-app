@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QuizSky</title>
+    <link rel="stylesheet" href="style.css">  
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">
+            <img src="Assets/QSKY.png" alt="QUIZSKY Logo">
+        </div>  
+        <div class="nav-links">
+            <a href="QuizSky.html">Home</a>
+            <a href="about.html">About</a>  
+            <a href="guide.html">Guide</a>
+        </div>
+    </nav>
+
+    <div class="image">
+        <img src="Assets\QSKY.png" alt="Quizsky IMAGE">
+        <h1>START YOUR JOURNEY WITH QUIZSKY!</h1>
+        <div class="container">
+            <h2>Enter Your Name</h2>
+            <input type="text" id="username" placeholder="Name">
+            <button id="enter-btn">ENTER</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("enter-btn").addEventListener("click", function() {
+            const username = document.getElementById("username").value.trim();
+            if (username) {
+                window.location.href = "choose.html";
+            } else {
+                alert("Please enter your name before proceeding.");
+            }
+        });
+    </script>
+
 </body>
 </html>
