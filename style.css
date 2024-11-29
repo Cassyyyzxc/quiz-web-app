@@ -1,0 +1,237 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Assets/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+nav {
+    background-color: #36a3e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 50px;
+}   
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo img {
+    height: 150px; 
+    width: auto; 
+    display: block; 
+    margin-left: -50px;
+    margin-bottom: 60px;
+}
+
+.nav-links {
+    display: flex;
+    font-family: 'Verdana', sans-serif;
+    margin-left: auto;
+}
+
+nav a {
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #1a84b8;
+    border-radius: 5px;
+}
+
+.image {
+    background-image: url('Assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(1.0) blur(0px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 85vh;
+    background-color: #ffffff;
+    margin-top: 0;
+    padding: 0;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    margin-top: -120px;
+    max-height: 300px;
+}
+
+.image h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0F52BA;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #36a3e5;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: -10px;
+}
+
+.container h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    background-color: white;
+    color: #333;
+    text-align: center;
+}
+input::placeholder {
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1a84b8;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+button:hover {
+    background-color: #0e3953;
+    
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: -400px;
+    background-color:#0047AB;
+    height: -100vh;
+
+}
+
+.image-left {
+    width: 40%;
+    padding-right: 30px;
+    margin-top: 250px;
+}
+
+.image-left img {
+    width: 120%;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: -50px;
+}
+
+#about {
+    width: 50%;
+    padding: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    color: #0F52BA;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 400px;
+    height: 63vh;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.guide-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.guide-image {
+    width: 35%;
+    padding-left: 30px;
+}
+
+#guide{
+    width: 55%;
+    padding: 50px;
+    background-color: #1A84B8;
+    color: #fefefe;
+    text-align: auto;
+    border-radius: 10px;
+    height: 60vh;
+    margin-top: 50px;
+}
+
+#guide h2{
+    font-size: 36px;
+    margin-top: -420px;
+    text-align: center;
+}
+
+.guide-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.guide-content-left p,
+.guide-content-left {
+    width: 60%;
+    text-align: right;
+    line-height: 12.9;
+    margin-top: -55px;
+    margin-left: 80px;
+}
+.guide-content-right p,
+.guide-content-right {
+    width: 60%;
+    text-align: left;
+    line-height: 9.8;
+    margin-top: -2px;
+    margin-right: 46px;
+}
+  
+
+
+
+
